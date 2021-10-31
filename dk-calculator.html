@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time calculator</title>
+    <link href="./dk-calculator.css" rel="stylesheet">
+</head>
+<body>
+<div class="dk-calculator-wrap">
+    <div class="dk-calculator-inner">
+        <h1 class="dk-title">Time Calculator</h1>
+        <table class="dk-calculator-table">
+            <tr>
+                <th></th>
+                <th>Hour</th>
+                <th>Minutes</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Time 1</th>
+                <td><input placeholder="Enter hour 1" type="number" id="hour1"></td>
+                <td><input placeholder="Enter minute 1" type="number" id="minute1"></td>
+                <td><button class="dk-button" value="default-shift">Shift</button></td>
+                <td><button class="dk-button" value="default-task">Task</button></td>
+                <td><button class="dk-button" value="clear-time1">Clear</button></td>
+            </tr>
+            <tr>
+                <th>Time 2</th>
+                <td><input placeholder="Enter hour 2" type="number" id="hour2"></td>
+                <td><input placeholder="Enter minute 2" type="number" id="minute2"></td>
+                <td><button class="dk-button" value="clear-time2">Clear</button></td>
+            </tr>
+            <tr>
+                <th>Result: </th>
+                <td><p id="dk-result"></p></td>
+                <td colspan="2"><button class="dk-button" value="set-in-time1">Set in Time 1</button></td>
+                <td colspan="2"><button class="dk-button" value="set-in-time2">Set in Time 2</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button class="dk-button" value="sum">Sum</button></td>
+                <td><button class="dk-button" value="diff">Difference</button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="./jquery.min.js" type="text/javascript"></script>
+<script src="./dk-calculator.js" id="dk-calculator"></script>
+</body>
+</html>

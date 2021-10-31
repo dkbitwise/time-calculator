@@ -1,0 +1,14 @@
+/** DK Calculator CSS **/
+.dk-calculator-wrap .dk-calculator-inner {
+    width: 800px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+}
+.dk-calculator-wrap .dk-title {
+    position: relative;
+    right: 15%;
+}
+.dk-calculator-wrap .dk-calculator-table td {
+    padding: 10px 15px;
+}
